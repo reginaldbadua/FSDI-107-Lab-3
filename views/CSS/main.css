@@ -1,0 +1,29 @@
+
+.error {
+    border: 1px solid red;
+}
+
+.hidden {
+    display: none; 
+}
+
+.item {
+    display: inline-block;
+    width: 250px;
+    border: 1px solid rgb(138, 114, 70);
+    background-color: rgb(246, 248, 244);
+    padding: 3px;
+    margin-right: 10px;
+    margin-bottom: 10px; 
+    height: 350px;
+    vertical-align: top;
+}
+
+.item:hover{
+    border-color: rgb(209, 164, 79);
+    box-shadow: -2px 2px 4px rgb(143, 91, 91);
+}
+
+.item img{
+    width: 240px;
+}

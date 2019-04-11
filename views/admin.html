@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Store Admin</title>
+<!-- ctrl + '/' -->
+
+<link rel="stylesheet" href="css/bootstrap.css">
+<link rel="stylesheet" href="css/main.css">
+<head>
+
+</head>
+
+<body>
+
+<!-- information to the user -->
+    <div class="alert alert-danger hidden" id="alert-error" role="alert">
+        There are some errors on the form, please fix them!
+    </div>
+                                                    
+    <div class="alert alert-success hidden" id="alert-saved" role="alert">
+        The item was registered correctly!!
+    </div>
+      
+<!-- Create form to ask the info about the items -->
+<div>
+<form action="">
+    <label for="">Name</label>
+    <input type="text" placeholder="Name" id="txtName">
+    <br>
+    <label for="">Description</label>
+    <input type="text" placeholder="Description" id="txtDesc">
+    <br>
+    <label for="">Price</label>
+    <input type="text" placeholder="0.00" id="txtPrice">
+    <br>
+    <label for="">Image</label>
+    <input type="text" placeholder="img url" id="txtImg">
+    <br>
+    <label for="">Category</label>
+    <input type="text" placeholder="Category" id="txtCat">
+    <br>
+    <button id="btnSave" type="button">Save Item</button>
+    <button type="reset">Clear Form</button>
+</form>
+</div> 
+    <label for="">Remove item with ID</label>
+    <input type="text" id="txtIdToRemove"/>
+
+    <button id="btnRemoveOne" class="btn btn-danger">Remove one element</button>
+<br>
+    <button id="btnRemoveAll" class="btn btn-danger">Remove all my elements</button>
+
+    <script src = "js/jquery-3.3.1.min.js"></script>
+    <script src="js/store.js"></script>
+    
+</body>
+</html>
